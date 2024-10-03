@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Notes</h1>
+        <textarea id="note" placeholder="Write your note here..."></textarea>
+        <div class="info">
+            <span id="wordCount">Words: 0</span>
+            <span id="limitMessage"></span>
+        </div>
+        <button id="saveBtn">Save Note</button>
+        <div id="savedNotes" class="saved-notes">
+            <h2>Saved Notes</h2>
+            <ul id="notesList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
